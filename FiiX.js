@@ -66,7 +66,7 @@ calli.on("message", message => {
   }
 });
 ///////////////////////////////////////////////////////////////////////////////
-calli.login("تــــــۆکــیــن لێرە دانێ")
+calli.logi("ODM1MjM3NTE0MjIxNTg0NDA0.YIMhjQ._Ackh_zgdUHtrN9koVz_w-xRI9k")
 ///////////////////////////////////////////////////////////////////////////////
 const FiiXenabled  = "";
 const FiiXdisabled = "";
@@ -79,7 +79,7 @@ const FiiXwarn     = "";                                                        
 ///////////////////////////////////////////////////////////////////////////////
 calli.on("ready", () => {
   console.log(`${calli.user.tag}`);
-  calli.user.setActivity(`${prefix}help`, {
+  calli.user.setActivity(`${prefix}k!+help`, {
     Type: "Playing"
   });
 });
